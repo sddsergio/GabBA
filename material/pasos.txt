@@ -1,0 +1,57 @@
+Pagina principal
+https://www.buenosaires.gob.ar/tramites/otorgamiento-de-licencia-de-conducir
+
+Podrás realizar este trámite para Obtener tu Licencia de Conducir por Primera Vez o si la Vigencia del carnet lleva vencida Más de un Año.
+
+Formas de pago
+mercado pago etc
+
+Curso de educacion vial 
+sacar turno
+https://www.buenosaires.gob.ar/licenciasdeconducir/cursosdecapacitacion
+
+Boleta del cenat
+https://boletacenat.safit.com.ar/
+
+Infracciones de tránsito por DNI o por PATENTE
+https://www.buenosaires.gob.ar/consulta-de-infracciones
+
+Presentar Cedula Verde, Verificación Técnica Vehicular (VTV) y seguro para rendir examen práctico.
+
+Extranjeros: deberán cumplir con los siguientes Requisitos Adicionales.
+
+Menores de 18 años: deberán cumplir con los siguientes Requisitos Adicionales.
+
+Curso de Educación Vial - Particular Auto (B y/o G)
+https://login.buenosaires.gob.ar/auth/realms/miba/protocol/openid-connect/auth?response_type=code&redirect_uri=https%3A%2F%2Fformulario-sigeci.buenosaires.gob.ar%2Flogin_check_openid&client_id=turnos-sigeci&state=0b36bced34db18b9dacc3608852ee74e&scope=openid+profile+email+address+extra&required=gender
+
+Inicio de trámite
+https://login.buenosaires.gob.ar/auth/realms/miba/protocol/openid-connect/auth?client_id=tramites-digitales-sitd&redirect_uri=https://tramitesdigitales.buenosaires.gob.ar/authentication&response_type=code&scope=openid%20profile%20email%20address%20extra&state=5CtqWF
+
+Manual de conductor - sitio web - Gob Ciudad de BSAS
+https://www.buenosaires.gob.ar/sites/gcaba/files/manual_del_conductor_22_de_julio-comprimido_4.pdf
+
+Costos del trámite
+Otorgamiento de Licencia de Conducir
+$2043
+Certificado Nacional de Antecedentes de Tránsito (CENAT)
+$900
+
+
+Precios de clases de Manejo de 60` Min. En Auto 0km Doble Comando. También damos clases con tu Propio Auto automático o manual camioneta o auto.
+Paquetes: 
+1°     Clase    $ 3.000
+
+3°     Clases  $ 8.500
+
+5°     Clases  $ 14.500
+
+7°     Clases  $ 20.000
+
+10°   Clases  $ 28.000 
++ Curso Teórico ( De Regalo )
+ 
+Curso teórico con Certificado del G.C.B.A  Precio: $1.900
+---Transferencia---
+---MercadoPago---
+---Efectivo---
