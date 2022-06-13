@@ -1,0 +1,463 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="gabba autoescuela,  autoescuela, conducir, manejar, aprender a manejar, aprender a conducir,
+    clases, manejo" />
+    <title>Aprender a manejar nunca fue tan facil!!</title>
+    <link rel="icon" href="img/ico1.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+   
+    
+  </head>
+  <body>
+
+      <div class="navigation w3-highway-blue w3-container">
+        <nav class="nav-container w3-padding-large">
+          <div class="logo">
+            <a href="index.html">Autoescuela<span>G.A.B. - BA</span></a>
+          </div>
+          <div class="mobile-button">
+            <span style="float: right;" onclick="toggleMobileNavigation()">&#9776;</span>
+          </div>
+          <div class="links">
+            <a href="#about" >Quienes somos</a>
+            <a href="#services" >Servicios</a>
+            <a href="#careers" >Clases</a>
+            <a href="#contact" >Contacto</a>            
+          </div>
+          <div id="mobile-sidenav" class="mobile-links w3-highway-blue">
+            <div class="mobile-logo" style="display: inline;">
+              <a href="index.html" class="logo">Autoescuela<span>GabbA</span></a>
+              
+              <span style="width: 100%;"></span>
+              <a href="javascript:void(0)" class="closebtn" onclick="toggleMobileNavigation()">&times;</a>
+            </div>
+            <a href="#about" onclick="toggleMobileNavigation()">Quienes somos</a>
+            <a href="#services" onclick="toggleMobileNavigation()">Servicios</a>
+            <a href="#careers" onclick="toggleMobileNavigation()">Clases</a>
+            <a href="#contact" onclick="toggleMobileNavigation()">Contacto</a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="hero" id="home">
+        <div class="text container">
+          <p class="pre-title">Obtenga su licencia de conducir con</p>
+          <h1 class="title"> Autoescuela<span>GabbA</span></h1>
+          <p class="post-title">Material teórico y práctico a disposición</p>
+          <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="#contact">Sacá tu turno AQUI</a> 
+        </div>
+      </div>
+
+      <div class="about container w3-padding-large" id="about">
+        <div class="text-one">
+          <h2>Sobre Nosotros</h2>
+          <p>Somos una empresa con mas de 20 años de experiencia en el rubro de la enseñanza. Te enseñamos todos los tips para un buen manejo. Para que te cuides tanto a vos como el auto. Te brindamos instructores profesionales que te tranmitirán seguridad y confianza. Contamos con autos doble comando con 3 pedales embrague, freno y acelerador. Con lo cual tu profresor tendra el control del auto en todo momento para una mayor seguridad y confianza en el transcurso de la clase.</p>
+          <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="about.html">Leer más</a> 
+        </div>
+        <div class="text-one">
+          <h2>Clases prácticas</h2>
+          <p>Las clases practicas tienen una duración de 60 minutos cada una, todas son al volante en un auto de doble comando, con un instructor al lado y te enseñan todo lo que te van a tomar en el examen practico final y lo que es tránsito real. Todas se efectúan en calles y avenidas de la zona del planetario y se salen directamente desde nuestro local. A medida que se va avanzando en el curso pueden tomarse dos turnos seguidos así la clase puede tener una duración de 1 hora.
+            La duración del curso depende de los conocimientos previos y la capacidad de aprendizaje de cada alumno.</p>
+          <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="vision.html">Leer más</a>
+        </div>
+      </div>
+
+      <div class="w3-panel w3-highway-blue numbers">
+        <p class="w3-center w3-xxxlarge show-medium">
+          <?xml version="1.0" encoding="utf-8"?>
+          <svg x="0px" y="0px" width="36" fill="#bed9f3" stroke="#bed9f3"
+            viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+          <g id="Down-arrow">
+            <path d="M17.2929993,29.7070007c-0.3906994-0.3906002-0.3906994-1.0234013,0-1.4140015
+              c0.3906002-0.3906002,1.0234013-0.3906002,1.4140015,0L32,41.5858994l13.2929993-13.2929001
+              c0.3905983-0.3906002,1.0233994-0.3906002,1.4140015,0C46.902298,28.4883003,47,28.7441998,47,29
+              c0,0.2558994-0.097702,0.5116997-0.2929993,0.7070007l-14,14c-0.3906021,0.3906975-1.0234013,0.3906975-1.4140015,0
+              L17.2929993,29.7070007z"/>
+            <path d="M32,64c17.6730957,0,32-14.3269005,32-32S49.6730957,0,32,0C14.3268003,0,0,14.3268995,0,32S14.3268003,64,32,64z M32,62
+              C15.4579,62,2,48.542099,2,32C2,15.4580002,15.4579,2,32,2s30,13.4580002,30,30C62,48.542099,48.542099,62,32,62z"/>
+          </svg>
+        </p>
+        <div class="container w3-padding-large">
+          <div class="text">
+            <p class="number">Tráfico Real</p>
+            <p>Autopista, avenidas, calles.</p>
+          </div>
+          <div class="text">
+            <p class="number">Automático o Manual</p>
+            <p>Autos Doble Comando</p>
+          </div>
+          <div class="text">
+            <p class="number">1 a 10</p>
+            <p>Clases a tu medida.</p>
+          </div>
+          <div class="text">
+            <p class="number">+1200</p>
+            <p>Licencias obtenidas</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="services container" id="services">
+        <h2 class="w3-center">Servicios</h2>
+        <div class="cards w3-padding-large w3-margin-top">
+          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3><a href="https://www.buenosaires.gob.ar/licenciasdeconducir/cursosdecapacitacion" target="_blank">CURSO</a> Educacion VIAL</h3>
+            <div class="card-text">
+              <p>Deberás hacer el Curso de Educación Vial, el mismo consta de un encuentro Virtual, con una duración de 3 hs y la lectura previa del manual del conductor.</p>
+            </div>
+          </div>
+          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>MATERIAL PARA RENDIR</h3>
+            <div class="card-text">
+              <p>We will build your mobile application and fulfill all your needs. SEO optimization is included.</p>
+              <a href="https://www.buenosaires.gob.ar/sites/gcaba/files/manual_del_conductor_22_de_julio-comprimido_4.pdf"></a>
+            </div>
+          </div>
+          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>C.E.N.A.T.</h3>
+            <div class="card-text">
+              <p>Imprimir la boleta de C.E.N.A.T.</p>
+              <a href="https://boletacenat.safit.com.ar/" target="_blank">AQUI</a>
+            </div>
+          </div>
+          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>TRÁMITES</h3>
+            <div class="card-text">
+              <p>We offer <span class="">free</span> consultation about your idea and offer you best approach on how to realize it.</p>
+            </div>
+          </div>
+          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>ASESORAMIENTO</h3>
+            <div class="card-text">
+              <p>We will ensure that your idea is well known in attempt to gather user base and expand your idea.</p>
+            </div>
+          </div>
+          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>MULTAS Y PATENTES</h3>
+             <div class="card-text">
+              <p>We will take care of event hosting and management process for your public. You just need to appear on the event, as a host.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="careers container" id="careers">
+        <h2 class="w3-center">Paquete de clases</h2>
+        <h3 class="w3-center">-PRECIOS DE CLASES DE MANEJO-</h3>
+        <h3 class="w3-center">Elegi el paquete que mejor se ajusta a tus conocimientos- </h3>
+        <h2 Class="w3-center" style="color:rgb(255, 0, 0) ;">Descuentos abonando en efectivo!!!</h2>
+        <h3 Class="w3-center">Pagos por MercadoPago</h3>
+      
+        
+      
+        <div class="cards w3-padding-large w3-margin-top">
+
+            <div class="card w3-card-4 w3-round-large">
+              <header class="w3-container w3-indigo">
+                 <h3>1 CLASE <br> $ 3000.-</h3>
+              </header>
+
+              <div class="content w3-container">
+                <div class="card-text" style="padding-bottom: 20px;">
+                <h4>Estado de conocimientos</h4>
+                <ul style="list-style-type: none;">
+                  <li>Advanced knowledge of HTML and CSS</li>
+                  <li>Advanced knowledge of advanced Javascript</li>
+                  <li>Advanced knowledge of at least one frontend frameworks</li>
+                  <li>Knowledge of Git and Github</li>
+                  <li>Knowledge of Unit Tests</li>
+                  <li>Can work in a team or alone efficiently</li>
+                </ul>
+                <h4>Feats</h4>
+                <ul style="list-style-type: none;">
+                  <li>Great salary, increased with your experience</li>
+                  <li>Work from home</li>
+                  <li>We give you laptop for your work</li>
+                  <li>Unlimited CONNECTFACTOR SWAG</li>
+                </ul>
+                </div>
+              </div>
+              <footer class="w3-container" style="padding: 0">
+                <a class="w3-button w3-indigo w3-hover-blue" style="width: 100%;" href="#contact">Contactar</a>
+              </footer>
+            </div>
+            <div class="card w3-card-4 w3-round-large">
+              <header class="w3-container w3-indigo">
+                 <h3>3 CLASES <br> $ 8500.-</h3>
+              </header>
+
+              <div class="content w3-container">
+                <div class="card-text" style="padding-bottom: 20px;">
+                <h4>Seguimos con lo aprendido</h4>
+                <ul style="list-style-type: none;">
+                  <li>5 years of working experience</li>
+                  <li>Advanced knowledge of HTML and CSS</li>
+                  <li>Advanced knowledge of advanced Javascript</li>
+                  <li>Advanced knowledge of at least one frontend frameworks</li>
+                  <li>Knowledge of Git and Github</li>
+                  <li>Knowledge of Unit Tests</li>
+                  <li>Can work in a team or alone efficiently</li>
+                </ul>
+                <h4>Feats</h4>
+                <ul style="list-style-type: none;">
+                  <li>Great salary, increased with your experience</li>
+                  <li>Work from home</li>
+                  <li>We give you laptop for your work</li>
+                  <li>Unlimited CONNECTFACTOR SWAG</li>
+                </ul>
+                </div>
+              </div>
+              <footer class="w3-container" style="padding: 0">
+                <a class="w3-button w3-indigo w3-hover-blue" style="width: 100%;" href="#contact">Contactar</a>
+              </footer>
+            </div>
+
+            <div class="card w3-card-4 w3-round-large">
+              <header class="w3-container w3-indigo">
+                 <h3>5 CLASES <br> $ 14500.- </h3>
+              </header>
+
+              <div class="content w3-container">
+                <div class="card-text" style="padding-bottom: 20px;">
+                <h4>Prácticas mas avanzadas</h4>
+                <ul style="list-style-type: none;">
+                  <li>1 year of working experience</li>
+                  <li>Knowledge of HTML and CSS</li>
+                  <li>Knowledge of Javascript</li>
+                  <li>Knowledge of at least one frontend framework</li>
+                  <li>Will to learn more both in team and alone</li>
+                </ul>
+                <h4>Feats</h4>
+                <ul style="list-style-type: none;">
+                  <li>Great salary, increased with your experience</li>
+                  <li>Work from home</li>
+                  <li>We give you laptop for your work</li>
+                  <li>Unlimited CONNECTFACTOR SWAG</li>
+                </ul>
+                </div>
+              </div>
+              <footer class="w3-container" style="padding: 0">
+                <a class="w3-button w3-indigo w3-hover-blue" style="width: 100%;" href="#contact">Contactar</a>
+              </footer>
+            </div>
+
+            <div class="card w3-card-4 w3-round-large">
+              <header class="w3-container w3-indigo">
+                 <h3>7 CLASES <br> $ 20000.-</h3>
+              </header>
+
+              <div class="content w3-container">
+                <div class="card-text" style="padding-bottom: 20px;">
+                <h4>Mas practicas avanzadas</h4>
+                <ul style="list-style-type: none;">
+                  <li>1 year of working experience</li>
+                  <li>Knowledge of HTML and CSS</li>
+                  <li>Knowledge of Javascript</li>
+                  <li>Knowledge of at least one frontend framework</li>
+                  <li>Will to learn more both in team and alone</li>
+                </ul>
+                <h4>Feats</h4>
+                <ul style="list-style-type: none;">
+                  <li>Great salary, increased with your experience</li>
+                  <li>Work from home</li>
+                  <li>We give you laptop for your work</li>
+                  <li>Unlimited CONNECTFACTOR SWAG</li>
+                </ul>
+                </div>
+              </div>
+              <footer class="w3-container" style="padding: 0">
+                <a class="w3-button w3-indigo w3-hover-blue" style="width: 100%;" href="#contact">Contactar</a>
+              </footer>
+            </div>
+            
+            <div class="card w3-card-4 w3-round-large">
+              <header class="w3-container w3-indigo">
+                 <h3>10 CLASES <br> $ 28000.-</h3>
+              </header>
+
+              <div class="content w3-container">
+                <div class="card-text" style="padding-bottom: 20px;">
+                <h4>Estacionamiento</h4>
+                <ul style="list-style-type: none;">
+                  <li>1 year of working experience</li>
+                  <li>Knowledge of HTML and CSS</li>
+                  <li>Knowledge of Javascript</li>
+                  <li>Knowledge of at least one frontend framework</li>
+                  <li>Will to learn more both in team and alone</li>
+                </ul>
+                <h4>Feats</h4>
+                <ul style="list-style-type: none;">
+                  <li>Great salary, increased with your experience</li>
+                  <li>Work from home</li>
+                  <li>We give you laptop for your work</li>
+                  <li>Unlimited CONNECTFACTOR SWAG</li>
+                </ul>
+                </div>
+              </div>
+              <footer class="w3-container" style="padding: 0">
+                <a class="w3-button w3-indigo w3-hover-blue" style="width: 100%;" href="#contact">Contactar</a>
+              </footer>
+            </div>
+
+            <!--<div class="card w3-card-4 w3-round-large">
+              <header class="w3-container w3-indigo">
+                 <h3>JUNIOR FRONTEND DEVELOPER</h3>
+              </header>
+
+              <div class="content w3-container">
+                <div class="card-text" style="padding-bottom: 20px;">
+                <h4>Requirements</h4>
+                <ul style="list-style-type: none;">
+                  <li>1 year of working experience</li>
+                  <li>Knowledge of HTML and CSS</li>
+                  <li>Knowledge of Javascript</li>
+                  <li>Knowledge of at least one frontend framework</li>
+                  <li>Will to learn more both in team and alone</li>
+                </ul>
+                <h4>Feats</h4>
+                <ul style="list-style-type: none;">
+                  <li>Great salary, increased with your experience</li>
+                  <li>Work from home</li>
+                  <li>We give you laptop for your work</li>
+                  <li>Unlimited CONNECTFACTOR SWAG</li>
+                </ul>
+                </div>
+              </div>
+              <footer class="w3-container" style="padding: 0">
+                <a class="w3-button w3-indigo w3-hover-blue" style="width: 100%;" href="#contact">Contactar</a>
+              </footer>
+            </div>-->
+        </div>
+      </div>
+      
+
+      
+        
+      <div class="tramites">
+        <div class="card w3-card-4 w3-round-large">
+          <div class="licencia">
+            <span style="font-size: 30px;">Obtené la licencia</span>
+            <img id="carnet" src="img/carnet.png" alt="carnet">  
+          </div>
+          
+        <div class="Estudio">
+          <h2>Material de estudio</h2>
+          <p> Examen Teórico: podés conseguir el Material Teórico de Estudio ingresando en la Web del Gobierno de la Ciudad.</p>
+          <a href="">Mas informacion</a>
+        </div>
+        </div>
+
+        <!--<div class="caba">
+            <h2>Tramitar en CABA</h2>
+            <p>Pasos a seguir para el otorgamiento en CABA:</p>
+            <ul  style="list-style-type: none;">
+              <li>Clases y subclases de licencias <a href="https://www.buenosaires.gob.ar/licenciasdeconducir/clases-y-subclases-de-licencias" target="a_blank">mas info</a></li>
+              <li>Realiza el curso de Educación vial <a href="https://miba.buenosaires.gob.ar/id/login?next=/openid/authorize%3Fresponse_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fformulario-sigeci.buenosaires.gob.ar%252Flogin_check_openid%26client_id%3D203396%26state%3De7ef81cae1daf884565c012c7b4b7281%26scope%3Dopenid%2Bprofile%2Bemail%2Baddress%2Bextra" target="_blank" rel="curso educacion vial">click aqui</a></li>
+              <li>Crear cuenta para poder empezar el<a href="https://login.buenosaires.gob.ar/auth/realms/miba/protocol/openid-connect/auth?client_id=tramites-digitales-sitd&redirect_uri=https://tramitesdigitales.buenosaires.gob.ar/authentication&response_type=code&scope=openid%20profile%20email%20address%20extra&state=Zga3LR" target="_blank" rel="login CABA"></a></li>
+            </ul>
+        </div>
+        
+        <div class="prov">
+            <h2>Tramites en BSAS</h2>
+            <p>Pasos a seguir para el otorgamiento en Provinicia BSAS:</p>
+            <ul  style="list-style-type: none;">
+                <li>Página oficial de <a href="https://www.gba.gob.ar/seguridadvial/licencias_de_conducir#:~:text=%C2%BFC%C3%B3mo%20tramitar%20la%20licencia%20en,declarado%20en%20tu%20DNI%20vigente." target="_blank" rel="seguridad vial">Seguridad vial</a></li>
+                <li>Tramitar el <a href="https://licenciasba.dppsv.gba.gob.ar/licencias/boletas_cenat_cepat/public/solicitante/new" target="a_blank">CENAT</a></li>
+                <li>CENAT<a href="https://licenciasba.dppsv.gba.gob.ar/licencias/boletas_cenat_cepat/public/solicitante/new" target="a_blank">CENAT</a></li>
+                <li>CENAT<a href="https://licenciasba.dppsv.gba.gob.ar/licencias/boletas_cenat_cepat/public/solicitante/new" target="a_blank">CENAT</a></li>
+            </ul>
+        </div>-->
+      </div>
+      
+
+      <div class="contact" id="contact">
+       <!-- <div class="gridcontainer">
+          
+          <div class="wrapper">
+            <div class="zona-zur">
+              <h3>Zona Sur</h3>
+              <p>Mataderos - Lugano</p>
+            </div>
+            <div class="zona-norte">
+              <h3>Zona Norte</h3>
+              <p>Nuñez - Belgrano</p>
+            </div>
+            <div class="zona-este">
+              <h3>Zona Este</h3>
+              <p>Devoto - Villa Urquiza</p>
+            </div>
+            <div class="zona-oeste">
+              <h3>Zona Este</h3>
+              <p>Chacarita - Villa Crespo</p>
+            </div>
+          </div>
+        </div>-->
+
+        <div class="short-contact">
+          <h2>Agenda un turno</h2>
+          <p class="w3-xlarge">Disponibilidad inmediata!!!</p>
+          <div class="w3-large w3-margin-top contact-info">
+            <i class="fa fa-location-arrow"></i><span style="margin-left:10px;"><a href="https://g.page/planetarioba?share" target="_blank">Zona del Planetario</a></span><br>
+            <i class="fa fa-envelope-o"></i><span style="margin-left:10px;"><a href="connect@factor.com">hola@autoescuelagabba.com.ar</a></span><br>
+            <i class="fa fa-phone"></i><span style="margin-left:10px;"><a href="https://api.whatsapp.com/send?phone=541127838464">+54 11 2783-8464</a></span><br>
+          </div>                                                                
+
+          <div class="w3-large w3-margin-top contact-info">
+            <i class="fa fa-linkedin"></i><span style="margin-left:10px;"><a href="#" target="_blank" style="text-decoration: none;">- Instagram</a></span><br>
+            <i class="fa fa-facebook"></i><span style="margin-left:10px;"><a href="#" target="_blank" style="text-decoration: none;"> - Facebook</a></span><br>
+            <i class="fa fa-twitter"></i><span style="margin-left:10px;"><a href="#" target="_blank" style="text-decoration: none;">- Twitter</a></span><br>
+          </div>
+        </div>
+
+        <div class="form w3-margin-top">
+          <div class="container w3-round-xlarge">
+            <form id="myForm" class="w3-highway-blue w3-padding-large w3-round-large">
+              <label for="firstName">Nombre</label>
+              <input type="text" id="name" name="name" placeholder="Nombre" list="milista"  required/>
+              <!--pattern="Madrid|Barcelona"
+                <datalist id="milista">
+                <option value="1">uno</option>
+              </datalist>-->
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Email">
+
+              <!--<output for="name email" form="myForm" name="resultado"></output>-->
+              
+              <label for="subject">Comentario</label>
+              <textarea id="subject" name="subject" placeholder="Dejanos tu consulta.." minlength="1" maxlength="250" style="height:150px"></textarea>
+              <p>By submiting this form, you agree to our <a href="privacy-policy.html" target="_blank">privacy policy</a></p><br>
+              <input class="w3-metro-blue" type="submit" value="submit">
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class=" w3-highway-blue w3-padding-large" id="footer">
+        <p class="w3-center logo">© 2022 - Autoescuela<span>Gab-BA</span> - All rights reserved - ☻ </p>
+      </div>
+
+       
+  
+    
+  
+  
+  <script>
+      function toggleMobileNavigation() {
+      const mobileNavigation = document.getElementById("mobile-sidenav");
+      mobileNavigation.classList.toggle('mobile-links-active');
+    }
+  </script>
+  <script src="main.js"></script>
+  </body>
+</html>
