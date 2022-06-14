@@ -1,0 +1,9 @@
+{
+  "name": "AutoescuelaGabba",
+  "version": "1.0.0",
+  "description": "probando que funcione el submit",
+  "main": "app.js",
+  "author": "Sergio Destefano",
+  "license": "MIT",
+  "private": false
+}
