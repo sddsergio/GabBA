@@ -451,20 +451,20 @@ textarea {
   color: var(--title-span-color); 
 }
 
-.containergrid{
-  max-width: 90%;
-  align-items: center;
+.gridcontainer p{
+  font-weight: bold;
 }
 
+/*ZONAS*/
 .wrapper{
+  justify-content: center;
   align-items: center;
   text-align: center;
   display: grid;
   grid-template-columns: 150px 150px;
   grid-template-rows: 150px 150px;
   max-width: 300px;
-  box-shadow: 2px 2px  30px rgb(146, 146, 150);
-  margin-right: 30px;
+  border-radius: 15%;
 }
 /*----------------------------*/
 
