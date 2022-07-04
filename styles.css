@@ -7,7 +7,7 @@
 
   --font-small: 0.5em;
   --font-medium: 1em;
-  --font-medium-large: 1.25em;
+  --font-medium-large: 1.40em;
   --font-large: 1.5rem;
   --font-x-large: 2rem;
   --font-2x-large: 3rem;
@@ -182,7 +182,8 @@ p {
   display: flex; 
   min-height: 300px;
   height: 800px;
-  background-image: url("https://source.unsplash.com/KRELIShKxTM/1920x1440");
+  /*background-image: url("https://source.unsplash.com/KRELIShKxTM/1920x1440");*/
+  background-image: url(img/Vista_frontal_del_planetario_Galileo_Galilei.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -357,19 +358,19 @@ p {
   justify-content: space-between;
 }
 
-/*Contact*/
+/*Contact--------------------------------------------------------------------------------*/
 
 .contact {
-  min-height: 400px;
+  width: 100%;
+  min-height: 300px;
   display: flex;
   justify-content: flex-end;
-  padding: 50px;
 }
-
+ 
 .contact .form .container {
   display: flex;
   justify-content: flex-end;
-  width: 100%;
+  margin-bottom: 20px;
 }
 
 .contact span {
@@ -386,6 +387,7 @@ p {
 }
 
 .contact .short-contact {
+  padding: 0 10px;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -434,37 +436,19 @@ textarea {
   display: none;
 }
 
-.tramites {
-  color: rgb(24, 78, 129);
-  align-items: center;
-  margin: auto;
-  width: 90%;
-  text-align: center;
+/*ZONAS*/
+.contact .zonas{
+  padding-left: 10px;
 }
-.tramites ul li{
-  font-size: var(--font-medium);
+.wpp-flotante{
+  bottom: 50px;
+  left: 10px;
+  position: fixed;
+  font-size: 25px;
   text-decoration: none;
 }
-#carnet{
-  color: var(--title-span-color); 
-}
 
-.gridcontainer p{
-  font-weight: bold;
-}
-
-/*ZONAS*/
-.wrapper{
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  display: grid;
-  grid-template-columns: 150px 150px;
-  grid-template-rows: 150px 150px;
-  max-width: 300px;
-  border-radius: 15%;
-}
-/*----------------------------*/
+/*-----------------------------------------------------------------------------*/
 
 @media screen and (max-width: 1200px) {
   .services .container,
@@ -479,10 +463,10 @@ textarea {
     font-size: var(--font-medium);
   }
   .contact.container {
-    width: 80%;
+    width: 100%;
   }
 }
-
+/*---------------------------------------------------------------------*/
 @media screen and (max-width: 1024px) {
   .nav-container {
     width: 80%;
@@ -553,33 +537,15 @@ textarea {
   .careers .cards .card {
     height: auto;
   }
-
-  .wrapper{
-    border: 1px solid black;
-  }
+  
 }
 
-/*zonas*/
 
-.containergrid{
-  max-width: 90%;
-  align-items: center;
-}
+/*----------------------------------------------------------------------*/
 
-.wrapper{
-  align-items: center;
-  text-align: center;
-  display: grid;
-  grid-template-columns: 150px 150px;
-  grid-template-rows: 150px 150px;
-  max-width: 300px;
-  box-shadow: 2px 2px  30px rgb(146, 146, 150);
-  margin-right: 30px;
-}
 
-.wrapper{
-  max-width: 300px;
-}
+
+
 
 @media screen and (max-width: 768px) {
   .mobile-links-active {
@@ -649,28 +615,13 @@ textarea {
   }
 
   .contact .container {
-    width: 90%;
+    width: 100%;
   }
 
   .contact .form .container form {
     width: 100%;
   }
   
-  .containergrid{
-    max-width: 90%;
-    align-items: center;
-  }
-  .wrapper{
-    border: 1px solid black;
-    align-items: center;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 150px 150px;
-    grid-template-rows: 150px 150px;
-    max-width: 300px;
-    box-shadow: 2px 2px  30px rgb(146, 146, 150);
-    margin-right: 30px;
-  }
 }
 
 @media screen and (max-width: 480px) {
@@ -724,24 +675,13 @@ textarea {
   }
 
   .contact .container {
-    width: 100%;
+    display: grid;
   }
   
-  .containergrid{
-    max-width: 90%;
-    align-items: center;
+  .zonas{
+    display: grid;
+    box-shadow: 2px 2px  30px rgb(146, 146, 150);
   }
-  
-    .wrapper{
-      align-items: center;
-      text-align: center;
-      display: grid;
-      grid-template-columns: 150px 150px;
-      grid-template-rows: 150px 150px;
-      max-width: 300px;
-      box-shadow: 2px 2px  30px rgb(146, 146, 150);
-      margin-right: 30px;
-    }
 }
 
  
