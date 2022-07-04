@@ -440,12 +440,21 @@ textarea {
 .contact .zonas{
   padding-left: 10px;
 }
+/*-----------------------------WPP----------------------*/
 .wpp-flotante{
   bottom: 50px;
   left: 10px;
   position: fixed;
-  font-size: 25px;
+  font-size: 15px;
   text-decoration: none;
+}
+.wpp-flotante:hover{
+  border-radius: 5%;
+  background-color: black;
+  color: yellow;
+}
+.wpp-flotante img{
+  width: 30px;
 }
 
 /*-----------------------------------------------------------------------------*/
